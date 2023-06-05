@@ -23,7 +23,7 @@ const ProductDetailFooter = () => {
 
   return (
     <div css={menusWrapper}>
-      <div onClick={() => onClickShareArticle(`https://i8d111.p.ssafy.io${location.pathname}`)}>
+      <div onClick={() => onClickShareArticle(`https://vilez.co.kr${location.pathname}`)}>
         <span>이 게시물 공유하기</span>
         <HiChevronRight size="22" />
       </div>
